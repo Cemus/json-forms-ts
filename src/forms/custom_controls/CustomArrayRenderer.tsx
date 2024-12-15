@@ -87,6 +87,7 @@ export const CustomArrayRenderer = ({
 
   return (
     <Box>
+      <h2>Pays</h2>
       {data.map((item: CountryPercentage, index: number) => (
         <Box
           key={index}
