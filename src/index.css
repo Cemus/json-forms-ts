@@ -4,20 +4,27 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  background-color: var(--dark);
+  background-color: var(--light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --light: #fcfbfb;
-  --accent: #cbb9d0;
-  --brand: #9acff0;
-  --contrast: #9095cc;
-  --dark: #3b7ac6;
+  --light: #d5d6b7;
+  --accent: #8097ab;
+  --brand: #65566f;
+  --contrast: #5162a3;
+  --dark: #1d062e;
 
-  color: var(--light);
+  color: var(--dark);
+}
+
+.percentage {
+  padding: 1rem;
+  background-color: var(--light);
+  border-radius: 0.4rem;
+  color: var(--dark);
 }
 
 a {
