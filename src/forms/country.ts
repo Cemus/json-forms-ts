@@ -1,4 +1,5 @@
 export const initialCountries = ["France", "Belgique", "Allemagne", "Inconnu"];
+
 const country = {
   schema: {
     type: "object",
